@@ -1,6 +1,6 @@
 # 🔮 Secret Number
 
-Projeto desenvolvido durante a #imersãoDEV da Alura!
+Projeto desenvolvido durante a #imersãoDEV da Alura!  
 
 link Github: https://andressadacosta.github.io/secret-number/
 
