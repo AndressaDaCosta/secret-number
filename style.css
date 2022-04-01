@@ -1,0 +1,131 @@
+* {
+  text-align: center;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 16px;
+  font-size: 20px;
+}
+
+.page-logo {
+  width: 200px;
+  height: 40px;
+  padding-bottom: 25px;
+  padding: 20px 0 0;
+  margin: auto;
+  filter: invert(85%);
+  animation: piscar 1s linear infinite alternate;
+}
+
+.alura-logo {
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  filter: blur(0px) brightness(200%) contrast(129%)
+    drop-shadow(6px 6px 1px gray) grayscale(0%) hue-rotate(93deg) invert(0%)
+    opacity(100%) saturate(125%) sepia(0%);
+}
+.alura-logo:hover {
+  animation: girar 1s;
+}
+/* @media (max-height: 500px) { 
+  body {
+    min-height: 800px;
+  }
+  */
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+input::-webkit-input-placeholder {
+  font-size: 23px;
+  color: #000000;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #2eb79a;
+}
+
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+}
+womanCode > img {
+  margin: auto;
+}
+img {
+  max-height: 250px;
+  max-width: 450px;
+  top: 500px;
+  animation: button 3s ease-in infinite;
+  animation-direction: alternate;
+  max-height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.womanCode:hover {
+  animation: expandir 1s;
+}
+
+.footer {
+  padding: 10px;
+}
+@keyframes expandir {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes piscar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
