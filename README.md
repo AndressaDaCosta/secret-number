@@ -1,4 +1,4 @@
-# Secret Number
+# 🔮 Secret Number
 
 
 link Github: https://andressadacosta.github.io/secret-number/
